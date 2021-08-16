@@ -2,24 +2,39 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+description: MSc Robotics, Cognitive Robotics, TU Delft
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: photo.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Prof. Sch. 61-4</p>
+    <p>2628 PZ</p>
+    <p>Delft, Netherlands</p>
 
 news: true  # includes a list of news items
+timeline: true  # include timeline
+projects: true  # include projects
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+✨ Let's explore something interesting together ~
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+🔭 Currently I am pursuing my master's degree 🏫️  at [Technische Universiteit Delft (MSc Robotics)](https://www.tudelft.nl/onderwijs/opleidingen/masters/rb/msc-robotics/). Previously I got my Bachelor's degree (Honor's Engineering Program, Qian Xuesen's Class) at [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), China. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+🌱 I’m currently working in **motion planning**, **event-based vision**, supervised by Dr. Fei Gao, at [ZJU-FAST](http://www.zju-fast.com/) lab, Zhejiang University. *We are sincerely doing really cool things to push the boundary of quadrotors here!*
+
+🤔 I’m looking for PhD positions in robotics. If you are interested in my background and have some available positions, please let me know!!! 😄️
+
+🖋️ I'm open to any discussions. If you have any question about robotics, please feel free to contact me. 📫 [siyuanwu99@gmail.com](mailto:siyuanwu99@gmail.com)
+
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+  
+
+
+<!-- The Timeline -->
+
+
+
