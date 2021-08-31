@@ -5,6 +5,9 @@ description: a project with a background image
 img: /assets/img/12.jpg
 importance: 1
 category: work
+url: https://github.com/ZJU-FAST-Lab/FAST-Dynamic-Vision
+github: https://github.com/edmundwsy/IEEE-RAS-slam-winter-school-project-9
+github_stars: 200
 ---
 
 Every project has a beautiful feature showcase page.
