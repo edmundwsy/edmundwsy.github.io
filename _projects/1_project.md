@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: IEEE-RAS-slam-winter-school-project
+description: 1. Applied the MINCO trajectory representation to find the near time-optimal solutions for different racing tracks. <br> 2. Generated polyhedrons through racing gates as hard constraints for trajectory optimization.
+img: /assets/img/12.jpg
 importance: 1
 category: work
 url: https://github.com/ZJU-FAST-Lab/FAST-Dynamic-Vision
