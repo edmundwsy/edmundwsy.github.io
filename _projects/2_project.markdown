@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: IEEE-RAS-slam-winter-school-project
+description: 1. Applied the MINCO trajectory representation to find the near time-optimal solutions for different racing tracks. 
 img: /assets/img/3.jpg
 importance: 2
 category: work
