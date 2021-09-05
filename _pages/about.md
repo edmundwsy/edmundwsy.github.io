@@ -8,9 +8,9 @@ profile:
   align: right
   image: photo.jpg
   address: >
-    <p>Prof. Sch. 61-4</p>
-    <p>2628 PZ</p>
-    <p>Delft, Netherlands</p>
+    <p>61, Prof. Schermerhornstraat</p>
+    <p>2628 PZ, Delft</p>
+    <p>the Netherlands</p>
 
 news: true  # includes a list of news items
 timeline: true  # include timeline
@@ -27,7 +27,7 @@ social: true  # includes social icons at the bottom of the page
 
 🤔 I’m looking for PhD positions in robotics. If you are interested in my background and have some available positions, please let me know!!! 😄️
 
-🖋️ I'm open to any discussions. If you have any question about robotics, please feel free to contact me. 📫 [siyuanwu99@gmail.com](mailto:siyuanwu99@gmail.com)
+🖋️ I'm open to any discussions, feel free to contact me. 📫 [siyuanwu99@gmail.com](mailto:siyuanwu99@gmail.com)
 
 
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>

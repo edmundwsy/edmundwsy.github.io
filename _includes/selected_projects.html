@@ -1,11 +1,12 @@
 <div class="card-item col">
   {% if project.selected %}
   <!-- TODO: change horizontal projects: image on the left-->
-  {% if project.redirect %}
-  <a href="{{ project.redirect }}" target="_blank">
+    {% if project.redirect %}
+    <a href="{{ project.redirect }}" target="_blank">
     {% else %}
     <a href="{{ project.url | relative_url }}">
-      {% endif %}
+    {% else %}
+    {% endif %}
       <div class="card hoverable">
         <div class="row g-0">
           {% if project.img %}

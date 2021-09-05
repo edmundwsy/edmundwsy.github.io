@@ -1,10 +1,13 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: /assets/img/1.jpg
+title: Event-based Perception
+description: 
+ - This is a detection and trajectory estimation algorithm based on event stream and depth estimation <br>
+ - This algorithm can be integrated in a MAV system
+img: /assets/img/FAST-DV.png
+redirect: https://www.youtube.com/watch?v=QPpwppeE_x0
 importance: 3
-category: fun
+category: research
 selected: true
 ---
 
