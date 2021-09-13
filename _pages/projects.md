@@ -9,6 +9,7 @@ horizontal: true
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
+  Building ( 20% completed )....
   <!-- Display categorized projects -->
     {% for category in page.display_categories %}
       <h2 class="category">{{category}}</h2>
