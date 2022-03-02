@@ -5,11 +5,11 @@ permalink: /projects/
 description: Building...
 nav: true
 display_categories: [research, coursework, fun]
-horizontal: true
+horizontal: false
 ---
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
-  Building ( 20% completed )....
+  To be updated...
   <!-- Display categorized projects -->
     {% for category in page.display_categories %}
       <h2 class="category">{{category}}</h2>
