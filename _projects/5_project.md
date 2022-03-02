@@ -2,8 +2,9 @@
 layout: page
 title: Event-based Perception
 description: 
- - This is a detection and trajectory estimation algorithm based on event stream and depth estimation <br>
- - This algorithm can be integrated in a MAV system
+ - Detection and trajectory estimation algorithm fusing event stream and depth estimation <br>
+ - Algorithms are integrated in a MAV system <br>
+ - Published to IROS 2021
 img: /assets/img/FAST-DV.png
 redirect: https://www.youtube.com/watch?v=QPpwppeE_x0
 importance: 3

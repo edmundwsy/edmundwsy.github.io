@@ -430,6 +430,7 @@ footer.sticky-bottom {
 
   .card {
     img {
+      // height: 100%;
       width: 100%;
     }
   }
@@ -444,8 +445,12 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-sizer, .grid-item {
-    width: 250px;
+  .card-text {
+    font: 0.5em;
+  }
+
+  .grid-item {
+    width:500px;
     margin-bottom: 10px;
   }
 
