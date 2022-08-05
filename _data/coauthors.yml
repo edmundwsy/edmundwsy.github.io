@@ -1,8 +1,11 @@
 "BotaoHe":
-  - firstname: ["Botao", "Botao He"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+  - firstname: ["Botao", "B."]
+    url: https://bottle101.github.io/
 
 "FeiGao":
-  - firstname: ["Fei", "Fei Gao"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+  - firstname: ["Fei", "F."]
+    url: http://zju-fast.com/fei-gao/
 
+"Haojia Li":
+  - firstname: ["Haojia", "H."]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
