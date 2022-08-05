@@ -66,7 +66,7 @@ dblp_url: # your DBLP profile url
 contact_note: >
   I’m open to any discussions, feel free to contact me at <u> siyuanwu99[AT]gmail.com </u>. 
 google_analytics: G-5EMTVGXDT7 # out your google-analytics code
-panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
+panelbear_analytics: 141v6hERZVq # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -174,8 +174,8 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    true  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
+enable_google_analytics:    false  # enables google analytics
+enable_panelbear_analytics: true  # enables panelbear analytics
 enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
