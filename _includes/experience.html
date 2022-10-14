@@ -1,0 +1,30 @@
+<div class="card-item col">
+  <div class="card hoverable">
+    <div class="row g-0">
+      <div class="card-img col-md-2">
+        <img src="{{ experience.img | relative_url }}" alt="experience thumbnail" height="120">
+      </div>
+      <div class="col-md-10">
+        <div class="card-body">
+          <div class="card-title">{{ experience.title }}</div>
+          <table class="card-text" width="100%">
+            <tr>
+              {% if experience.tutor %}
+              <td style="width: 70%; text-align: left;">Supervisor: <a href={{experience.tutor_link}}> {{
+                  experience.tutor }}</a></td>
+              {% else %}
+                {% if experience.course %}
+                  <td style="width: 70%; text-align: left;">Courses: {{ experience.course }}</td>
+                {% else %}
+                  <td style="width: 70%; text-align: left;">Thesis: {{ experience.thesis }}</td>
+                {% endif %}
+              {% endif %}
+              <td style="width: 30%; text-align: right;">{{ experience.timespan }}</td>
+            </tr>
+          </table>
+          <p class="card-text">{{ experience.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

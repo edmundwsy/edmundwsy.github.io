@@ -97,6 +97,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  experience:
+    output: true
+    permalink: /experience/:path/
 
 news_limit: 5
 
