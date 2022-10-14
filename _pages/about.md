@@ -8,15 +8,16 @@ profile:
   align: right
   image: photo.jpg
   address: >
-    <p>61, Prof. Schermerhornstraat</p>
-    <p>2628 PZ, Delft</p>
-    <p>the Netherlands</p>
+    <p><a href="mailto:siyuanwu99@gmail.com"> siyuanwu99[at]gmail.com </a></p>
+    <p>Delft, the Netherlands</p>
 
 news: true  # includes a list of news items
-timeline: true  # include timeline
+experience: true  # include timeline
 projects: true  # include projects
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+teaching: true
+awards: true
 ---
 
 ✨ Let's explore something interesting together~
