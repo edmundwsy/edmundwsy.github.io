@@ -4,11 +4,12 @@
 @string{auro = {Auton. Robots}}
 @string{icra = {Proc. of the {IEEE} Intl. Conf. on Robot. and Autom. (ICRA)}}
 @string{dars = {Intl. Sym. on Distributed Auton. Syst.}}
-@string{ram = {{IEEE} Robot. Autom. Mag. (RA-M)}}
-@string{ral = {{IEEE} Robot. Autom. Lett. (RA-L)}}
+@string{ram = {IEEE Robot. Autom. Mag. (RA-M)}}
+@string{ral = {IEEE Robot. Autom. Lett. (RA-L)}}
 @string{iser = {Proc. of the Intl. Sym. on Exp. Robot.}}
 @string{isrr = {Proc. of the Intl. Sym. of Robot. Research}}
-@string{iros = {Proc. of the {IEEE/RSJ} Intl. Conf. on Intell. Robots and Syst. (IROS)}}
+@string{iros = {Proc. of the {IEEE/RSJ} Intl. Conf. on Intell. Robots and Syst.
+                (IROS)}}
 @string{ecmr = {Proc. of the Euro. Conf. on Mobile Robot.}}
 @string{proc = {Proc. of the {IEEE}}}
 @string{ijrr = {Intl. J. Robot. Research (IJRR)}}
@@ -21,39 +22,80 @@
 @string{icuas = {Proc. of the Intl. Conf. on Unma. Air. Syst.}}
 @string{caes = {Proc. of the Conf. on Ann. Euro. Sym.}}
 
-@article{DBLP:journals/corr/abs-2103-05903,
-  author    = {Botao He and
-               Haojia Li and
-               Siyuan Wu and
-               Dong Wang and
-               Zhiwei Zhang and
-               Qianli Dong and
-               Chao Xu and
-               Fei Gao},
-  title     = {FAST-Dynamic-Vision: Detection and Tracking Dynamic Objects with Event
-               and Depth Sensing},
-  abbr      = {IROS},
-  journal   = {IROS},
-  pdf       = {IROS2021.pdf},
-  year      = {2021},
-  arxiv     = {2103.05903},
-  code      = {https://github.com/ZJU-FAST-Lab/FAST-Dynamic-Vision},
-  video     = {https://www.youtube.com/watch?v=QPpwppeE_x0&ab_channel=FeiGao},
-  selected  = {true},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2103-05903.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org},
-  abstract  = {The development of aerial autonomy has enabled aerial robots to fly agilely in complex environments. However, dodging fast-moving objects in flight remains a challenge, limiting the further application of unmanned aerial vehicles (UAVs). The bottleneck of solving this problem is the accurate perception of rapid dynamic objects. Recently, event cameras have shown great potential in solving this problem. This paper presents a complete perception system including ego-motion compensation, object detection, and trajectory prediction for fast-moving dynamic objects with low latency and high precision. Firstly, we propose an accurate ego-motion compensation algorithm by considering both rotational and translational motion for more robust object detection. Then, for dynamic object detection, an event camera-based efficient regression algorithm is designed. Finally, we propose an optimizationbased approach that asynchronously fuses event and depth cameras for trajectory prediction. Extensive real-world experiments and benchmarks are performed to validate our framework. Moreover, our code will be released to benefit related researches.}
+@inproceedings{DBLP:journals/corr/abs-2103-05903,
+    author = {Botao He and Haojia Li and Siyuan Wu and Dong Wang and Zhiwei
+              Zhang and Qianli Dong and Chao Xu and Fei Gao},
+    title = {FAST-Dynamic-Vision: Detection and Tracking Dynamic Objects with
+             Event and Depth Sensing},
+    booktitle = {2021 IEEE/RSJ International Conference on Intelligent Robots
+                 and Systems (IROS)},
+    year = {2021},
+    pages = {3071-3078},
+    doi = {10.1109/IROS51168.2021.9636448},
+    abbr = {IROS},
+    pdf = {IROS2021.pdf},
+    arxiv = {2103.05903},
+    code = {https://github.com/ZJU-FAST-Lab/FAST-Dynamic-Vision},
+    video = {https://www.youtube.com/watch?v=QPpwppeE_x0&ab_channel=FeiGao},
+    selected = {true},
+    html = {https://ieeexplore.ieee.org/document/9636448},
+    biburl = {https://dblp.org/rec/journals/corr/abs-2103-05903.bib},
+    bibsource = {dblp computer science bibliography, https://dblp.org},
+    abstract = {The development of aerial autonomy has enabled aerial robots to
+                fly agilely in complex environments. However, dodging fast-moving
+                objects in flight remains a challenge, limiting the further
+                application of unmanned aerial vehicles (UAVs). The bottleneck of
+                solving this problem is the accurate perception of rapid dynamic
+                objects. Recently, event cameras have shown great potential in
+                solving this problem. This paper presents a complete perception
+                system including ego-motion compensation, object detection, and
+                trajectory prediction for fast-moving dynamic objects with low
+                latency and high precision. Firstly, we propose an accurate
+                ego-motion compensation algorithm by considering both rotational
+                and translational motion for more robust object detection. Then,
+                for dynamic object detection, an event camera-based efficient
+                regression algorithm is designed. Finally, we propose an
+                optimizationbased approach that asynchronously fuses event and
+                depth cameras for trajectory prediction. Extensive real-world
+                experiments and benchmarks are performed to validate our
+                framework. Moreover, our code will be released to benefit related
+                researches.},
 }
 
 @article{chen2022RAST,
-  title    = {RAST: Risk-Aware Spatio-Temporal Safety Corridors for MAV Navigation in Dynamic Uncertain Environments},
-  author   = {Chen, Gang and Wu, Siyuan and Shi, Moji and Dong, Wei and Zhu, Hai and Alonso-Mora, Javier},
-  date     = {2022},
-  pages    = {8},
-  language = {en},
-  abbr     = {RA-L},
-  journal  = {RA-L},
-  code     = {https://github.com/g-ch/RAST_corridor_planning},
-  selected = {true},
-  abstract = {Autonomous navigation of Micro Aerial Vehicles (MAVs) in dynamic and unknown environments is a complex and challenging task. Current works rely on assumptions to solve the problem. The MAV’s pose is precisely known, the dynamic obstacles can be explicitly segmented from static ones, their number is known and fixed, or they can be modeled with given shapes. In this paper, we present a method for MAV navigation in dynamic uncertain environments without making any of these assumptions. The method employs a particlebased dynamic map to represent the local environment and predicts it to the near future. Collision risk is defined based on the predicted maps and a series of risk-aware spatio-temporal (RAST) safety corridors are constructed, which are finally used to optimize a dynamically-feasible collision-free trajectory for the MAV. We compared our method with several state-of-theart works in 9600 simulation tests in Gazebo with the physical engine enabled. The results show that our method has the highest success rate at different uncertainty levels. Finally, we validated the proposed method in real experiments.}
+    author = {Chen, Gang and Wu, Siyuan and Shi, Moji and Dong, Wei and Zhu, Hai
+              and Alonso-Mora, Javier},
+    journal = {IEEE Robotics and Automation Letters (RA-L)},
+    title = {RAST: Risk-Aware Spatio-Temporal Safety Corridors for MAV
+             Navigation in Dynamic Uncertain Environments},
+    year = {2023},
+    volume = {8},
+    number = {2},
+    pages = {808-815},
+    language = {en},
+    abbr = {RA-L},
+    code = {https://github.com/tud-amr/RAST_corridor_planning},
+    pdf = {RAL2022.pdf},
+    selected = {true},
+    html = {https://ieeexplore.ieee.org/document/9998074},
+    doi = {10.1109/LRA.2022.3231832},
+    abstract = {Autonomous navigation of Micro Aerial Vehicles (MAVs) in dynamic
+                and unknown environments is a complex and challenging task.
+                Current works rely on assumptions to solve the problem. The MAV’s
+                pose is precisely known, the dynamic obstacles can be explicitly
+                segmented from static ones, their number is known and fixed, or
+                they can be modeled with given shapes. In this paper, we present
+                a method for MAV navigation in dynamic uncertain environments
+                without making any of these assumptions. The method employs a
+                particlebased dynamic map to represent the local environment and
+                predicts it to the near future. Collision risk is defined based
+                on the predicted maps and a series of risk-aware spatio-temporal
+                (RAST) safety corridors are constructed, which are finally used
+                to optimize a dynamically-feasible collision-free trajectory for
+                the MAV. We compared our method with several state-of-theart
+                works in 9600 simulation tests in Gazebo with the physical engine
+                enabled. The results show that our method has the highest success
+                rate at different uncertainty levels. Finally, we validated the
+                proposed method in real experiments.},
 }
+
