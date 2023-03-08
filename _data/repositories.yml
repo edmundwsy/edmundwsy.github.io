@@ -6,3 +6,5 @@ github_repos:
   - edmundwsy/RO47005-PDM-Final
   - edmundwsy/traj_opt
   - edmundwsy/RAST_corridor_planning
+  - edmundwsy/pred-occ-planner
+  - edmundwsy/dynamic_map_generator
