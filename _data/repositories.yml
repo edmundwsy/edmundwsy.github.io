@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - edmundwsy
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ZJU-FAST-Lab/FAST-Dynamic-Vision
+  - edmundwsy/RO47005-PDM-Final
+  - edmundwsy/traj_opt
+  - edmundwsy/RAST_corridor_planning
