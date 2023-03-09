@@ -1,13 +1,13 @@
 ---
 layout: page
 title: IEEE RAS SLAM Winter School Project
-description: This work is to implement a Monocular Depth Estimation network using Tensorflow 2 and it is based on the previous work with modifications.
+description: In this project, we implement a monocular depth estimation network using Tensorflow 2 based on published papers.
 img: /assets/img/proj_2021_07.png
-importance: 4
+importance: 2
 category: others
 url: https://www.uts.edu.au/research-and-teaching/our-research/centre-autonomous-systems/events/ieee-ras-winter-school-slam-deformable-environments
 github: https://github.com/edmundwsy/IEEE-RAS-slam-winter-school-project-9
-selected: true
+selected: false
 ---
 
 This [repo](https://github.com/edmundwsy/IEEE-RAS-slam-winter-school-project-9) is the code and documents of project 9d during IEEE RAS Winter School on SLAM in Deformable Environments. It has been done by several prospective students from both master program of [Robotics](https://www.tudelft.nl/en/education/programmes/masters/robotics/msc-robotics) at TU Delft and [Autonomous Systems](https://www.dtu.dk/english/education/msc/programmes/autonomous-systems) from DTU.
