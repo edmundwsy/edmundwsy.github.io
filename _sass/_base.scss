@@ -4,7 +4,18 @@
 
 // Typography
 
-p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+div,
+li,
+span,
+strong {
   color: var(--global-text-color);
 }
 
@@ -12,7 +23,8 @@ table tbody tr td {
   font-size: 18px;
 }
 
-a, table.table a {
+a,
+table.table a {
   color: var(--global-theme-color);
   &:hover {
     color: var(--global-theme-color);
@@ -23,7 +35,8 @@ a, table.table a {
   }
 }
 
-figure, img {
+figure,
+img {
   max-width: 90vw;
 }
 
@@ -77,7 +90,8 @@ blockquote {
 
 // Citation
 
-.citation, .citation-number {
+.citation,
+.citation-number {
   color: var(--global-theme-color);
 }
 
@@ -96,10 +110,10 @@ blockquote {
     }
   }
 }
-.profile.float-right{
+.profile.float-right {
   margin-left: 1rem;
 }
-.profile.float-left{
+.profile.float-left {
   margin-right: 1rem;
 }
 
@@ -107,7 +121,9 @@ blockquote {
   .profile {
     width: 30%;
     .address {
-      p { display: block; }
+      p {
+        display: block;
+      }
     }
   }
 }
@@ -123,7 +139,6 @@ blockquote {
     }
   }
 }
-
 
 // Navbar customization
 
@@ -148,10 +163,10 @@ blockquote {
 }
 .dropdown-item {
   color: var(--global-text-color);
-    &:hover {
-      color: var(--global-hover-color);
-      background-color: var(--global-bg-color);
-    }
+  &:hover {
+    color: var(--global-hover-color);
+    background-color: var(--global-bg-color);
+  }
 }
 .navbar.navbar-light {
   a {
@@ -168,13 +183,13 @@ blockquote {
       color: var(--global-hover-color);
     }
   }
-  .navbar-nav .nav-item.active>.nav-link {
-      background-color: inherit;
-      font-weight: bolder;
-      color: var(--global-theme-color);
-      &:hover {
-        color: var(--global-hover-color);
-      }
+  .navbar-nav .nav-item.active > .nav-link {
+    background-color: inherit;
+    font-weight: bolder;
+    color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-hover-color);
+    }
   }
   .navbar-brand.social {
     padding-bottom: 0;
@@ -258,7 +273,7 @@ blockquote {
     }
   }
   .contact-note {
-    font-size: 1.0rem;
+    font-size: 1rem;
   }
 }
 
@@ -291,11 +306,11 @@ footer.sticky-bottom {
 
 .cv {
   margin-bottom: 40px;
-  
+
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-    
+
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
@@ -338,7 +353,8 @@ footer.sticky-bottom {
     justify-content: center;
     display: flow-root;
 
-    p, li {
+    p,
+    li {
       list-style: none;
       display: inline-block;
       padding: 1rem 0.5rem;
@@ -395,7 +411,6 @@ footer.sticky-bottom {
   }
 }
 
-
 // Distill
 
 .distill {
@@ -404,7 +419,6 @@ footer.sticky-bottom {
     text-decoration: none;
   }
 }
-
 
 // Projects
 
@@ -441,7 +455,7 @@ footer.sticky-bottom {
   }
 
   .grid-item {
-    width:500px;
+    width: 500px;
     margin-bottom: 10px;
   }
 
@@ -454,7 +468,6 @@ footer.sticky-bottom {
     text-align: right;
   }
 }
-
 
 .experience {
   a {
@@ -470,9 +483,6 @@ footer.sticky-bottom {
   .card {
     img {
       margin-left: 20px;
-    }
-    .card-title {
-      color: $black-color;
     }
   }
 
@@ -491,7 +501,7 @@ footer.sticky-bottom {
   }
 
   .grid-item {
-    width:500px;
+    width: 500px;
     margin-bottom: 5px;
   }
 
@@ -504,7 +514,6 @@ footer.sticky-bottom {
     text-align: right;
   }
 }
-
 
 // Publications
 
@@ -570,8 +579,8 @@ footer.sticky-bottom {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
-              border-bottom-style: solid;
-              text-decoration: none;
+            border-bottom-style: solid;
+            text-decoration: none;
           }
         }
         > em {
@@ -583,8 +592,8 @@ footer.sticky-bottom {
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
           &:hover {
-              color: var(--global-text-color);
-              border-bottom: 1px dashed var(--global-text-color);
+            color: var(--global-text-color);
+            border-bottom: 1px dashed var(--global-text-color);
           }
         }
       }
@@ -663,7 +672,8 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
-  pre, code {
+  pre,
+  code {
     background-color: transparent;
     border-radius: 0;
     padding: 0;
@@ -676,7 +686,6 @@ code {
   border-radius: 3px;
   padding: 3px 3px;
 }
-
 
 // Transitioning Themes
 html.transition,
@@ -881,7 +890,7 @@ html.transition *:after {
     margin: 4px 0 0 0;
     z-index: 14;
   }
-  .post-tags{
+  .post-tags {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     padding-top: 0.25rem;
@@ -894,7 +903,7 @@ html.transition *:after {
       }
     }
   }
-  .post-content{
+  .post-content {
     blockquote {
       border-left: 5px solid var(--global-theme-color);
       padding: 8px;
@@ -903,56 +912,56 @@ html.transition *:after {
 }
 
 progress {
-     /* Positioning */
-     position: fixed;
-     left: 0;
-     top: 56px;
-     z-index: 10;
-   
-     /* Dimensions */
-     width: 100%;
-     height: 1px;
-   
-     /* Reset the appearance */
-     -webkit-appearance: none;
-        -moz-appearance: none;
-             appearance: none;
-   
-     /* Get rid of the default border in Firefox/Opera. */
-     border: none;
-   
-     /* Progress bar container for Firefox/IE10  */
-     background-color: transparent;
-   
-     /* Progress bar value for IE10  */
-     color: var(--global-theme-color);
- }
- 
- progress::-webkit-progress-bar {
-     background-color: transparent;
- }
-   
- progress::-webkit-progress-value {
-     background-color: var(--global-theme-color);
- }
-   
- progress::-moz-progress-bar {
-     background-color: var(--global-theme-color);
- }
- 
- .progress-container {
-     width: 100%;
-     background-color: transparent;
-     position: fixed;
-     top: 56px;
-     left: 0;
-     height: 5px;
-     display: block;
- }
- 
- .progress-bar {
-     background-color: var(--global-theme-color);
-     width: 0%;
-     display: block;
-     height: inherit;
- }
+  /* Positioning */
+  position: fixed;
+  left: 0;
+  top: 56px;
+  z-index: 10;
+
+  /* Dimensions */
+  width: 100%;
+  height: 1px;
+
+  /* Reset the appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* Get rid of the default border in Firefox/Opera. */
+  border: none;
+
+  /* Progress bar container for Firefox/IE10  */
+  background-color: transparent;
+
+  /* Progress bar value for IE10  */
+  color: var(--global-theme-color);
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--global-theme-color);
+}
+
+progress::-moz-progress-bar {
+  background-color: var(--global-theme-color);
+}
+
+.progress-container {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  height: 5px;
+  display: block;
+}
+
+.progress-bar {
+  background-color: var(--global-theme-color);
+  width: 0%;
+  display: block;
+  height: inherit;
+}

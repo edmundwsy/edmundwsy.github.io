@@ -10,7 +10,7 @@
         <div class="row g-2">
           {% if project.img %}
           <div class="card-img col-md-4">
-            <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+            <img src="{{ project.img | relative_url }}" class="rounded" alt="project thumbnail">
           </div>
           <div class="col-md-8">
             {% else %}
