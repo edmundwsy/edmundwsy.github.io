@@ -1,13 +1,11 @@
 <div class="card-item col">
   <div class="card hoverable">
-    <div class="row g-2">
-      <div class="card-img col-md-2">
-        <img
-          src="{{ experience.img | relative_url }}"
-          alt="experience thumbnail"
-        />
+    <div class="row">
+      <div class="col-sm-2">
+        {%- assign logo_path = experience.img -%} {% include figure.html
+        path=logo_path class="rounded" alt=experience.img -%}
       </div>
-      <div class="col-md-10">
+      <div class="col-sm-10">
         <div class="card-body">
           <div class="card-title">{{ experience.title }}</div>
           <table class="card-text" width="100%">

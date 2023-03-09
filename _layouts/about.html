@@ -46,10 +46,11 @@ layout: default
     {% if page.projects %}
     <pre></pre>
     <h2>Selected Projects</h2>
+    {%- assign sorted_projects = site.projects | sort: "importance" %}
     <div class="projects">
       <div class="container">
         <div class="row row-cols-1">
-          {% for project in site.projects %}
+          {% for project in sorted_projects %}
           {% include selected_projects.html %}
           {% endfor %}
         </div>

@@ -7,6 +7,6 @@ description: Run Karto-SLAM on a turtlebot robot with rplidar A2.
   Software implementation is based on https://github.com/mywisdomfly/Clean-robot-turtlebot3
 img: /assets/img/turtlebot.jpg
 redirect: https://github.com/edmundwsy/SmartCarNavigation
-importance: 3
+importance: 8
 category: coursework
 ---

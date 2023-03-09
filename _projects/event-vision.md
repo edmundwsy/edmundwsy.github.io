@@ -9,7 +9,7 @@ img: /assets/img/FAST-DV.png
 redirect: https://www.youtube.com/watch?v=QPpwppeE_x0
 importance: 3
 category: research
-selected: true
+selected: false
 ---
 
 Every project has a beautiful feature showcase page.

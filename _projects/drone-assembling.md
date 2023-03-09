@@ -6,7 +6,7 @@ description:
   It requires a thorough understanding of drone mechanics, electrical engineering, and software programming. The construction process involves selecting appropriate parts, soldering and wiring the components, and ensuring proper balance for stable flight.
 img: /assets/img/drone-f450.jpeg
 redirect: https://edmundwsy.github.io/blog/2021/01/19/drone-assembling/
-importance: 4
+importance: 1
 category: others
 selected: true
 ---
