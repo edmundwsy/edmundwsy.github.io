@@ -8,7 +8,7 @@ profile:
   align: right
   image: photo.jpg
   address: >
-    <p>Delft, the Netherlands</p>
+    <p>Delft, Netherlands</p>
 
 experience: true # include timeline
 projects: true # include projects

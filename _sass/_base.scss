@@ -122,8 +122,8 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
-    max-width: 30%;
+    width: 20%;
+    max-width: 20%;
     .address {
       p {
         display: block;
@@ -552,10 +552,6 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-      .preview {
-        width: 100%;
-        min-width: 80px;
-        max-width: 200px;
       .row {
         display: flex;
         justify-content: center;
