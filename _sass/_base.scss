@@ -38,6 +38,9 @@ table.table a {
 figure,
 img {
   max-width: 90vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 blockquote {
@@ -99,7 +102,7 @@ blockquote {
 
 .profile {
   width: 100%;
-
+  max-width: 30%;
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -120,6 +123,7 @@ blockquote {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
+    max-width: 30%;
     .address {
       p {
         display: block;
@@ -483,6 +487,7 @@ footer.sticky-bottom {
   .card {
     img {
       margin-left: 20px;
+      max-width: 100px;
     }
   }
 
@@ -551,6 +556,15 @@ footer.sticky-bottom {
         width: 100%;
         min-width: 80px;
         max-width: 200px;
+      .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .preview {
+          width: 100%;
+          min-width: 80px;
+          max-width: 400px;
+        }
       }
       .abbr {
         height: 2rem;
