@@ -29,16 +29,6 @@ layout: default
       {{ content }}
     </div>
 
-    {% if page.social %}
-    <p>
-    <div class="social">
-      <div class="contact-icons">
-        {% include social.html %}
-      </div>
-    </div>
-    </p>
-    {% endif %}
-
     {% if page.selected_papers %}
     {% include selected_papers.html %}
     {% endif %}

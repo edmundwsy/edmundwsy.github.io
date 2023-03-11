@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /publications/
+# permalink: /publications/
 title: Publications
 description:
 years: [2021, 2022, 2023]
-nav: true
+nav: false
 nav_order: 1
 ---
 

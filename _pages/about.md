@@ -30,3 +30,11 @@ As a new learner to robotics, I am interested in **drones**, **planning**, **opt
 I'm always up for academic discussions and collaborations! Feel free to contact me with any questions and let's make progress together!
 
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<div class="social">
+{% if page.social %}
+    <div class="contact-icons">
+    {% include social.html %}
+    </div>
+{% endif %}
+</div>
