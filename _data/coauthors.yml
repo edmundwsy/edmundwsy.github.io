@@ -1,8 +1,19 @@
-"BotaoHe":
-  - firstname: ["Botao", "Botao He"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"He":
+  - firstname: ["Botao"]
+    url: https://bottle101.github.io/
 
-"FeiGao":
-  - firstname: ["Fei", "Fei Gao"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Alonso-Mora":
+  - firstname: ["Javier"]
+    url: https://www.autonomousrobots.nl/
 
+"Gao":
+  - firstname: ["Fei"]
+    url: http://zju-fast.com/fei-gao/
+
+"Chen":
+  - firstname: ["Gang"]
+    url: https://ieeexplore.ieee.org/author/37932918200
+
+"Shi":
+  - firstname: ["Moji"]
+    url: https://smoggy-p.github.io/

@@ -577,9 +577,18 @@ footer.sticky-bottom {
       }
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-text-color);
           &:hover {
-            border-bottom-style: solid;
+            color: var(--global-theme-color);
+            text-decoration: underline;
+          }
+          &:hover:after :not(.nav-item.dropdown) {
+            width: 100%;
+          }
+          // border-bottom: 1px dashed var(--global-text-color);
+          &:hover {
+            border-bottom-width: 1px;
+            border-bottom-style: dashed;
             text-decoration: none;
           }
         }
