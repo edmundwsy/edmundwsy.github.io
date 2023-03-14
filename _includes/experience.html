@@ -17,13 +17,13 @@
               </td>
               {% else %} {% if experience.course %}
               <td style="width: 70%; text-align: left">
-                Courses: {{ experience.course }}
+                {{ experience.course }}
               </td>
-              {% else %}
+              {% else %} {% if experience.thesis %}
               <td style="width: 70%; text-align: left">
                 Thesis: {{ experience.thesis }}
               </td>
-              {% endif %} {% endif %}
+              {% endif %} {% endif %} {% endif %}
               <td style="width: 30%; text-align: right">
                 {{ experience.timespan }}
               </td>
