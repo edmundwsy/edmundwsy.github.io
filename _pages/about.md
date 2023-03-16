@@ -27,7 +27,9 @@ As a new learner to robotics, I am interested in **drones**, **planning**, **opt
 
 <!-- 🤔 I’m looking for PhD positions in robotics（especially in planning). -->
 
-I'm always up for academic discussions and collaborations! Feel free to contact me with any questions and let's make progress together!
+For me, the most intoxicating aspect of robotics is the wonderful harmony between crude engineering tasks like screwing and the elegant simplicity of mathematics, and the sheer joy of witnessing the birth of new robots, each one a testament to human ingenuity and technological progress.
+
+I'm always up for academic discussions and collaborations! Feel free to contact me with any questions and let's create a better world together!
 
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 
