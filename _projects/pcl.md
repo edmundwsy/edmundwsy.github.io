@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Point cloud registration
+title: Point Cloud Registration
 description:
   - ICP Point cloud registration for tomato detection <br>
   - Coded in python and open3d

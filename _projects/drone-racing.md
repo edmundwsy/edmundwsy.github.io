@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Drone racing
+title: Drone Racing
 description:
   - Verify GCOPTER trajectory generation method for drone racing task.
 img: /assets/img/traj_gen.png

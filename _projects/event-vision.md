@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Event-based perception
+title: Event-Based Perception
 description:
   - Detection and trajectory estimation algorithm fusing event stream and depth estimation <br>
   - Algorithms are integrated in a MAV system <br>

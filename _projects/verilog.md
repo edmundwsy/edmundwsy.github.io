@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FPGA-based remote-controlled car
+title: FPGA-Based Remote-Controlled Car
 description:
   We develope a remote-controlled car based on Xlinx EGO-1 FPGA board as a microcontroller.
   The car is equipped with L298N stepper motor drivers and 4 two-phase four-wire stepper motors.

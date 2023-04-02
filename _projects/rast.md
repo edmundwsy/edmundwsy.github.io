@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Risk-aware spatio-temporal corridor for safe planning
+title: Risk-Aware Spatio-Temporal Corridor For Safe Planning
 description:
   - A novel method for autonomous flight of MAVs in dynamic uncertain environments without making specific assumptions on the obstacles. <br> Published at RA-L
 img: /assets/img/rast.png
