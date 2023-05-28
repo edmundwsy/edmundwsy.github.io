@@ -8,5 +8,5 @@ img: /assets/img/drone-f450.jpeg
 redirect: https://edmundwsy.github.io/blog/2021/01/19/drone-assembling/
 importance: 1
 category: others
-selected: true
+selected: false
 ---

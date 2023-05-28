@@ -20,6 +20,7 @@ news: false # includes a list of news items
 ---
 
 I am a 2nd-year master student in robotics at [TU Delft](https://www.tudelft.nl/onderwijs/opleidingen/masters/rb/msc-robotics/). I obtained my B.Eng. in Automation at [Xi'an Jiaotong University](https://en.wikipedia.org/wiki/Xi%27an_Jiaotong_University), China. I finished my bachelor's thesis at [FAST Lab](http://www.zju-fast.com/), Zhejiang University, where I worked on event-based vision and motion planning. In 2020 I was a visiting student in University of Edinburgh.
+I am trilled to have been accepted to ETH Robotics Summer School this year.
 
 As a new learner to robotics, I am interested in **drones**, **planning**, **optimal control** and **optimization**.
 
