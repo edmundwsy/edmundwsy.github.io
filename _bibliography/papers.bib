@@ -102,37 +102,3 @@
                 rate at different uncertainty levels. Finally, we validated the
                 proposed method in real experiments.},
 }
-
-@thesis{wu2023iros,
-    title = {Decentralized Multi-Agent Trajectory Planning in Dynamic
-             Environments with Occupancy Prediction },
-    author = {Wu, Siyuan and Chen, Gang and Shi, Moji and Alonso-Mora, Javier},
-    school = {Under Review},
-    month = {March},
-    year = {2023},
-    abstract = {This paper proposes a decentralized multi-agent trajectory
-                planning framework based on an occupancy prediction map to
-                address the challenge of autonomous navigation of multiple micro
-                aerial vehicles (MAVs) in dynamic environments. The occupancy
-                prediction map, which forecasts the occupancy status of dynamic
-                and static obstacles in the near future simultaneously, is a
-                promising solution to represent dynamic environments. By using
-                the occupancy prediction map, we avoid segmenting moving
-                obstacles from the environment and simplify the planning problem
-                into multi-time-step planning and propose a decentralized
-                multi-agent planning method. The method extends the kinodynamic
-                A* and the corridor-constrained trajectory optimization algorithm
-                to efficiently tackle static and dynamic obstacles with arbitrary
-                shapes. Collision avoidance between agents is integrated by
-                sharing planned trajectories and projecting them onto the
-                occupancy prediction map. We validate the proposed method in
-                obstacle-dense dynamic environments with different numbers and
-                shapes of static and dynamic obstacles. Simulation results show
-                our methods achieve 47.1\% less failure rate and 14.1\% less
-                flight time in the dynamic environment with obstacles of
-                different shapes compared to the state-of-the-art method.},
-    code = {https://github.com/edmundwsy/pred-occ-planner},
-    selected = {true},
-    preview = pred-occ-planner.gif,
-}
-
