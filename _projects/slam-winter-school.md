@@ -6,11 +6,11 @@ img: /assets/img/proj_2021_07.png
 importance: 2
 category: others
 url: https://www.uts.edu.au/research-and-teaching/our-research/centre-autonomous-systems/events/ieee-ras-winter-school-slam-deformable-environments
-github: https://github.com/edmundwsy/IEEE-RAS-slam-winter-school-project-9
+github: https://github.com/siyuanwu99/IEEE-RAS-slam-winter-school-project-9
 selected: false
 ---
 
-This [repo](https://github.com/edmundwsy/IEEE-RAS-slam-winter-school-project-9) is the code and documents of project 9d during IEEE RAS Winter School on SLAM in Deformable Environments. It has been done by several prospective students from both master program of [Robotics](https://www.tudelft.nl/en/education/programmes/masters/robotics/msc-robotics) at TU Delft and [Autonomous Systems](https://www.dtu.dk/english/education/msc/programmes/autonomous-systems) from DTU.
+This [repo](https://github.com/siyuanwu99/IEEE-RAS-slam-winter-school-project-9) is the code and documents of project 9d during IEEE RAS Winter School on SLAM in Deformable Environments. It has been done by several prospective students from both master program of [Robotics](https://www.tudelft.nl/en/education/programmes/masters/robotics/msc-robotics) at TU Delft and [Autonomous Systems](https://www.dtu.dk/english/education/msc/programmes/autonomous-systems) from DTU.
 
 ## Brief Description
 
@@ -28,4 +28,4 @@ We have been awarded the [3rd Prize](https://www.uts.edu.au/research-and-teachin
 
 ---
 
-[Codes](https://github.com/edmundwsy/IEEE-RAS-slam-winter-school-project-9)
+[Codes](https://github.com/siyuanwu99/IEEE-RAS-slam-winter-school-project-9)
