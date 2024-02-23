@@ -18,8 +18,10 @@ awards: true
 news: false # includes a list of news items
 ---
 
-I am soon to start my PhD at the Learning Systems and Robotics (LSY) Lab at TUM, subject to the approval of my German visa application.
-I graduated with Cum Laude from the MSc Robotics program at [TU Delft](https://www.tudelft.nl/onderwijs/opleidingen/masters/rb/msc-robotics/), where I was supervised by Dr. Javier Alonso-Mora and Dr. Gang Chen.
+<!-- I am soon to start my PhD at the Learning Systems and Robotics (LSY) Lab at TUM, subject to the approval of my German visa application. -->
+<!-- I graduated with Cum Laude from the MSc Robotics program at [TU Delft](https://www.tudelft.nl/onderwijs/opleidingen/masters/rb/msc-robotics/), where I was supervised by Dr. Javier Alonso-Mora and Dr. Gang Chen. -->
+
+I am pursuing my master's degree at [TU Delft](https://www.tudelft.nl/onderwijs/opleidingen/masters/rb/msc-robotics/), where I was supervised by Dr. Javier Alonso-Mora and Dr. Gang Chen.
 I obtained my B.Eng. in Automation at [Xi'an Jiaotong University](https://en.wikipedia.org/wiki/Xi%27an_Jiaotong_University), China.
 I finished my bachelor's thesis at [FAST Lab](http://www.zju-fast.com/), Zhejiang University, where I worked on event-based vision and motion planning.
 In 2020 I was a visiting student in University of Edinburgh.
