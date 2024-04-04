@@ -6,7 +6,7 @@ description: MSc Robotics, Cognitive Robotics, TU Delft
 
 profile:
   align: right
-  image: photo_2.jpg
+  image: photo_3.png
   address: <p>Mainland China</p>
 
 experience: true # include timeline
